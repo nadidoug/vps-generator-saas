@@ -1,8 +1,6 @@
-# Clone the repository
-git clone https://github.com/yourusername/vps-deployment-generator
-
-# Install dependencies
 npm install
+```
 
-# Start the development server
+2. Start the application:
+```bash
 npm run dev
