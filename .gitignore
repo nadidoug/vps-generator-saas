@@ -1,0 +1,88 @@
+# Dependencies
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Environment & Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+config.json
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+pgdata/
+
+# Build & Deploy
+build/
+dist/
+.cache/
+coverage/
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Logs & Debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+logs/
+
+# User Uploads & Media
+uploads/
+media/
+public/uploads/
+tmp/
+
+# Private Business Logic & IP
+**/private/
+**/secrets/
+**/config/production.json
+server/services/
+server/auth.ts
+server/storage.ts
+server/middlewares/
+**/beta/
+**/marketing/
+**/*metrics*
+**/*analytics*
+**/email-templates/
+**/payment/
+**/subscribers/
+docs/business_overview.md
+shared/schema.private.ts
+shared/schema.ts
+PRIVATE_REPO.md
+
+# AI and Documentation
+attached_assets/
+**/prompts/
+**/ai_transcripts/
+**/PRIVATE_*.md
+saas_report/
+**/docs/internal/
+**/docs/private/
+
+# Testing
+coverage/
+.nyc_output/
+test-results/
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
